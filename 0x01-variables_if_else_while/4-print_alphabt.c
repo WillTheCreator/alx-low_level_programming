@@ -9,7 +9,16 @@
 int main(void)
 
 {
-
-	    return (0);
-
+char alpha;                                                                                                                           
+char new = '\n';             
+for (alpha = 'a'; alpha <= 'z' ; ++alpha)                                                                                             
+{
+if (alpha = 'p' and alpha = 'e')
+{
+continue;
+}
+putchar(alpha);  
+}                                                                                                                                     
+putchar(new);
+return (0);
 }
