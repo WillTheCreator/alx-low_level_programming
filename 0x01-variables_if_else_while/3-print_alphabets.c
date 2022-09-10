@@ -16,7 +16,7 @@ for (alpha_s = 'a' ; alpha_s <= 'z' ; ++alpha_s)
 putchar(alpha_s);
 for (alpha_b = 'A' ; alpha_b <= 'Z' ; ++alpha_b)
 {
-putchar(alpha_b)
+putchar(alpha_b);
 }
 }
 putchar(new);
