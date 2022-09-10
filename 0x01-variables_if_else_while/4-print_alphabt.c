@@ -5,20 +5,19 @@
  *
  * Return: Always 0 (Success)
  */
-
 int main(void)
+{
+	char c;
 
-{
-char alpha;                                                                                                                           
-char new = '\n';             
-for (alpha = 'a'; alpha <= 'z' ; ++alpha)                                                                                             
-{
-if (alpha = 'p' and alpha = 'e')
-{
-continue;
-}
-putchar(alpha);  
-}                                                                                                                                     
-putchar(new);
-return (0);
+	for (c = 'a'; c <= 'z'; c++)
+	{
+	if (c != 'e' && c != 'q')
+	{
+		putchar(c);
+	}
+	}
+
+	putchar('\n');
+
+	return (0);
 }
