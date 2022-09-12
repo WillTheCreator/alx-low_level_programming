@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void);
+int main(void)
 {
 	int a = '0';
 	for (a; a < '9' ;a++)
