@@ -1,12 +1,19 @@
 #include <stdio.h>
 
+/**
+ * main -Entry point
+ *
+ * Return: Always (Success)
+ */
 int main(void)
 {
-	int a = '0';
-	for(a; a < '9' ;a++)
+	int x;
+
+	for(x; x < '9' ;x++)
 	{
-		putchar(a);
-		if (a != '9')
+		putchar(x);
+		
+		if (x != '9')
 		{
 			putchar(',');
 			putchar(' ');
