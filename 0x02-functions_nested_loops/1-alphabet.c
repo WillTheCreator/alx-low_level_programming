@@ -1,19 +1,20 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - Entry Level
  *
  * Return: Always 0 (Successful)
  */
-int main(void)
+int void print_alphabet(void);
 {
 	char letter;
 	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		putchar(letter);
+		_putchar(letter);
 	}
 
-	putchar('\n');
+	_putchar('\n');
 	return(0);
 }
 
