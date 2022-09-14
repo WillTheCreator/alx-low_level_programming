@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * main - Entry Level
+ * print letter- prints alphabets a to z
  *
- * Return: Always 0 (Successful)
+ * Return: void
  */
 void print_alphabet(void)
 {
