@@ -5,7 +5,7 @@
  *
  * Return: 1 if successfull || 0 if otherwise
  */
-int _islower(int c);
+int _islower(int c)
 {
 	int c;
 	int i = 0;
