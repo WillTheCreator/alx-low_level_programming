@@ -3,7 +3,7 @@
 /**
  * times_table - function that prints the 9 time table
  *
- * Return: Always 0
+ * Return: void
  */
 void times_table(void)
 {
@@ -18,6 +18,6 @@ void times_table(void)
 			_putchar('\n');
 		}
 	i++;
-	return (0);
+	return;
 	}
 }
