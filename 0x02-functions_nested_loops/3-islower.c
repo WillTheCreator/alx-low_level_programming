@@ -7,14 +7,16 @@
  */
 int _islower(int c)
 {
-	int c;
 	int i = 0;
-	if i == true;
+	for (i in c)
 	{
-		return (1);
-	}
-	else
-	{
-		return (0);
+		if (_islower(int c))
+		{
+			return (1);
+		}
+		else
+		{
+			return (0);
+		}
 	}
 }
