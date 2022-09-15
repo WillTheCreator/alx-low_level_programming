@@ -2,18 +2,17 @@
 #include "main.h"
 
 /**
- * print letter- prints alphabets a to z
+ * print_alphabet - prints alphabets a to z
  *
  * Return: void
  */
 void print_alphabet(void)
 {
-	char letter;
-	for (letter = 'a'; letter <= 'z'; letter++)
+	char let;
+	for (let = 'a'; let <= 'z' ; let++)
 	{
-		_putchar(letter);
+		_putchar(let);
 	}
 
 	_putchar('\n');
-	return;
 }
