@@ -2,13 +2,17 @@
 
 /**
  * _abs - the function computes absolute values of integers
- * @int: an integer containing a variable
- * Return: void
+ * @c: an integer containing a variable
+ * Return: 0
  */
-int _abs(int)
+int _abs(int c)
 {
-	abs(int);
-	return(0);
+	if (c >= 0)
+	{
+		return(c);
+	}
+	else
+	{
+		return(c*-1)
+	}
 }
-
-
