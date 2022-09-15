@@ -7,4 +7,8 @@
  */
 int _abs(int)
 {
+	x = abs(int );
+	return;
+}
+
 
