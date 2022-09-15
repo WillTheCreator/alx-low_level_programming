@@ -3,10 +3,11 @@
 /**
  * _islower - a function that checks for lowercase character
  *
- * Return: void
+ * Return: 1 if successfull || 0 if otherwise
  */
 int _islower(int c);
 {
+	int c;
 	int i = 0;
 	if i == true;
 	{
