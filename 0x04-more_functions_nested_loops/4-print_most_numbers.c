@@ -8,9 +8,10 @@
 void print_most_numbers(void)
 {
 	int i;
-	for (i = 28; i < 38; i++)
+
+	for (i = 0; i < 10; i++)
 	{
-		if ((i == 30) || (i == 32))
+		if ((i == 2) || (i == 4))
 		{
 			continue;
 		}
