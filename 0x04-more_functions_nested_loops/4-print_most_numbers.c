@@ -10,12 +10,11 @@ void print_most_numbers(void)
 	int i;
 	for (i = 28; i < 38; i++)
 	{
-		if ((i == 32) || (i == 34))
+		if ((i == 30) || (i == 32))
 		{
 			continue;
 		}
 		_putchar(i);
 	}
 	_putchar('\n');
-	return (0);
 }
