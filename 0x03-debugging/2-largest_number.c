@@ -25,7 +25,7 @@ int largest_number(int a, int b, int c)
 		largest = c;
 	}
 	
-	printf("%d", largest);
+	printf("%d \n", largest);
 
 	return (largest);
 }
