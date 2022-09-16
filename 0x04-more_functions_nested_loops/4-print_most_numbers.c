@@ -10,7 +10,7 @@ void print_most_numbers(void)
 	int i;
 	for (i = 28; i < 38; i++)
 	{
-		if ((i == 2) || (i == 4))
+		if ((i == 32) || (i == 34))
 		{
 			continue;
 		}
