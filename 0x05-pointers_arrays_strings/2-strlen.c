@@ -8,5 +8,5 @@
  */
 int _strlen(char *s)
 {
-	return strchr( s, '\0') - s;
+	return _strlen( s, '\0') - s;
 }
