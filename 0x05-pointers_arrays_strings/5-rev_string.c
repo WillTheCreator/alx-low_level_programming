@@ -8,12 +8,12 @@
  */
 void rev_string(char *s)
 {
-	int rts = 0;
+	int rts = '\0';
 
-	while (*(s - rts) != '\0')
+	while (*(s - rts) < '\0')
 	{
 		putchar(*(s - rts));
-		i--;
+		rts--;
 	}
 	putchar('\n');
 }
