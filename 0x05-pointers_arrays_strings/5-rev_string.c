@@ -10,9 +10,9 @@ void rev_string(char *s)
 {
 	int rts = '\0';
 
-	while (*(s - rts) < '\0')
+	while (*(s + rts) < '\0')
 	{
-		putchar(*(s - rts));
+		putchar(*(s + rts));
 		rts--;
 	}
 	putchar('\n');
