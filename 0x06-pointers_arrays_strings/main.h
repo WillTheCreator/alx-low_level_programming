@@ -11,5 +11,6 @@ char *cap_string(char *);
 char *leet(char *);
 void stringManipulation(char *str);
 int getStringLength(char *str);
+int _putchar(char c);
 
 #endif /* MAIN_H */
