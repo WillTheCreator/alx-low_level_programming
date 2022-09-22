@@ -8,5 +8,7 @@
  */
 void stringManipulation(char *str)
 {
-	printf("THe length of the string is: %d\n", getStringLength(str));
+	int len = getStringLength(str);
+
+	printf("THe length of the string is: %d\n", len);
 }
