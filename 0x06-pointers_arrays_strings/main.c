@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	vhar *str = "I am a string";
+	char *str = "I am a string";
 
 	stringManipulation(str);
 
