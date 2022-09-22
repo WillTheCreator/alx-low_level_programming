@@ -1,5 +1,6 @@
-Below is a list of projecunder the topics of pointers, arraysand string
+# 0X06- More Pointers, Arrays and Strings
 
+## Tasks
 1. a function that concatenates two strings
 
 2. a function that concatenates two strings
@@ -15,3 +16,9 @@ Below is a list of projecunder the topics of pointers, arraysand string
 7. a function that capitalizes all words of a string.
 
 8. a function that encodes a string into 1337.
+
+## Resource Links
+
+## My Thoughts
+
+
