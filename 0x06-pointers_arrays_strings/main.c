@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char *str = "I am a string";
+	char *str = "Jujustu Kaisen 0 is finally out!";
 
 	stringManipulation(str);
 
