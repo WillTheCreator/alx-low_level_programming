@@ -10,8 +10,13 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int L1, L2, i;
-	L1 = strlen(*src);
-	L2 = strlen(*dest);
+	int i;
+	size_t Ldest = strlen(dest);
 
-	
+	for (i = 0; i < src['\0]; i++)
+	{
+		dest[dest_len + i] = src[i];
+	}
+	dest[dest_len + i] = '\0';
+	return (dest);
+}	
