@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * *_strncat - a function that concatenates two strings
- * @dest: the pointer to the array containing concatenated string 
+ * _strncat - a function that concatenates two strings
+ * @dest: the pointer to the array containing concatenated string
  * @src: the string to be appended
  * @n: the maximum number of characters to be appended
  * Return: the destination/final concatenated string
