@@ -4,25 +4,24 @@
  * _strcmp - function that compares two strings
  * @s1: pointer address to variable holding a string
  * @s2: pointer address to variable holding a string
- * Return: 0 if not simmilar, 1 if similar
+ * Return: var if not simmilar, nothing if similar
  */
 int _strcmp(char *s1, char *s2)
 {
-	int mark = 0;
+	int i = 0, var = 0;
 
-	while (*s1 != '\0' && *s2 != '\0')
+	while (1)
 	{
-		if (*s1 != *s2)
-		{
-			mark = 1;
-		}
-		s1++;
-		s2++;
+		if (s1[i] == '\0' && s2[i] == '\0')
+			var = 1;
+		else if (s1[i] == '\0')
+			var = s2[i];
+		else if (s2[i] == '\0')
+			var = s1[i];
+		else if (s1[i] != s2[i])
+			var = s1[i] - s2[i];
+		else
+			i++;
 	}
-	if (*s1 != '\0' || *s2 != '\0')
-		return (1);
-	if (mark == 0)
-		return (0);
-	else
-		return (1);
+	return (var);
 }
