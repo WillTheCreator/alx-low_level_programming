@@ -6,7 +6,7 @@
  * @argv: argument vector of pointers to string
  * Return: always 0
  */
-int amin(int arg _attribute_((unused)), char *argv[])
+int main(int arg _attribute_((unused)), char *argv[])
 {
 	printf("%\n", argv[0]);
 	return (0);
