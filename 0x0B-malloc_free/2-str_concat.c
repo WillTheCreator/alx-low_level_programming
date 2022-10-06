@@ -5,7 +5,7 @@
  * @s1: first string
  * @s2: second string
  *
- * Return: NULL for failure, pointer to a new string for 
+ * Return: NULL for failure, pointer to a new string for
  * the case of success
  */
 
